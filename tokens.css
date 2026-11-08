@@ -1,7 +1,8 @@
 /* Hallmark tokens · Toppko Aesthetics · Custom Editorial System */
 @font-face {
-  font-family: "Libre Bodoni";
-  src: url("./fonts/LibreBodoni-Variable.woff2") format("woff2");
+  font-family: "Plus Jakarta Sans";
+  src: url("./public/fonts/PlusJakartaSans-Variable.woff2") format("woff2"),
+       url("./fonts/PlusJakartaSans-Variable.woff2") format("woff2");
   font-weight: 400 800;
   font-style: normal;
   font-display: swap;
@@ -29,8 +30,8 @@
   --space-4xl: 96px;
 
   /* Type scale */
-  --font-display: "Libre Bodoni", Georgia, serif;
-  --font-body: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Manrope", system-ui, -apple-system, sans-serif;
+  --font-body: "Plus Jakarta Sans", "Manrope", system-ui, -apple-system, sans-serif;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;

@@ -372,25 +372,25 @@ body {
 /* Headline */
 .hero-h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 3.8vw, 3.6rem);
-  line-height: 1.08;
-  letter-spacing: -0.025em;
-  font-weight: 700;
-  color: var(--text-hero-main);
+  font-size: clamp(2.75rem, 4.8vw, 4.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  color: #FAF7F2;
   margin-bottom: clamp(14px, 1.8vh, 20px);
 }
 
 .hero-h1-italic {
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
   color: #EFE4D6;
 }
 
 .hero-p {
-  font-size: clamp(13.5px, 1.1vw, 15px);
-  line-height: 1.48;
+  font-size: clamp(14px, 1.15vw, 15.5px);
+  line-height: 1.5;
   color: var(--text-hero-muted);
-  margin-bottom: clamp(16px, 2.2vh, 24px);
+  margin-bottom: clamp(18px, 2.2vh, 26px);
   max-width: 44ch;
 }
 
