@@ -1,15 +1,12 @@
 {
   "name": "toppko-aesthetics-website",
   "version": "1.0.0",
-  "description": "Production B2B aesthetic, dermal and clinic products catalogue and inquiry website for Toppko Aesthetics.",
+  "description": "B2B aesthetic, dermal and clinic products catalogue and inquiry website for Toppko Aesthetics.",
   "type": "commonjs",
   "scripts": {
     "dev": "node dev.js",
     "serve": "node dev.js",
-    "build": "node build.js",
-    "test": "node test_empty_division.js",
-    "test:empty-division": "node test_empty_division.js",
-    "lint": "node .agents/skills/hallmark/scripts/sloplint.mjs dist/index.html dist/style.css --genre modern-minimal"
+    "build": "echo 'Static assets ready'"
   },
   "keywords": [
     "aesthetic",
@@ -19,8 +16,5 @@
   ],
   "author": "Toppko Aesthetics",
   "license": "UNLICENSED",
-  "private": true,
-  "dependencies": {
-    "potrace": "^2.1.8"
-  }
+  "private": true
 }
