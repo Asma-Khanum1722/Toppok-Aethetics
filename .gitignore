@@ -1,8 +1,28 @@
+# Environment & Secret Credentials
+.env
+.env*.local
+*.env
+
+# Dependencies & Build Artifacts
 node_modules/
 dist/
+build/
+
+# Agent, Tool & Workspace Cache
 .agents/
 .hallmark/
+.gemini/
 _final_state/
+scratch/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor Metadata
 .DS_Store
 Thumbs.db
-*.log
+.vscode/
+.idea/
