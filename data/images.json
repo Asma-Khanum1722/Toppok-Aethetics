@@ -1,0 +1,804 @@
+{
+  "glutax": {
+    "productId": "glutax",
+    "productName": "Glutax",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "resellerSite": "skini.pk",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "Glutax 2000GS Advanced",
+    "resolvedSource": "/images/sheet/image1.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: Glutax 2000GS Advanced"
+  },
+  "aqua-skin": {
+    "productId": "aqua-skin",
+    "productName": "Aqua skin",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/aqua-skin.svg",
+    "sourceType": "generated-illustration"
+  },
+  "mirecal-white": {
+    "productId": "mirecal-white",
+    "productName": "Mirecal white",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "resellerSite": "skini.pk",
+    "resellerStatus": "Please confirm",
+    "resellerShows": "Miracle White Magic Skin Whitening injection",
+    "resolvedSource": "/images/sheet/image2.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: Miracle White Magic Skin Whitening injection"
+  },
+  "bio-rae": {
+    "productId": "bio-rae",
+    "productName": "Bio rae",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "resolvedSource": "/images/crops/biorae_kit.webp",
+    "sourceType": "flyer-crop"
+  },
+  "roch-vit-c": {
+    "productId": "roch-vit-c",
+    "productName": "Roch vit c",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/roch-vit-c.svg",
+    "sourceType": "generated-illustration"
+  },
+  "asce": {
+    "productId": "asce",
+    "productName": "ASCE+",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "resellerSite": "consentz.com",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "ASCE+ SRLV exosome kit (20 mg + 5 ml)",
+    "resolvedSource": "/images/sheet/image3.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: ASCE+ SRLV exosome kit (20 mg + 5 ml)"
+  },
+  "exohealer-sb": {
+    "productId": "exohealer-sb",
+    "productName": "Exohealer Sb",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/exohealer-sb.svg",
+    "sourceType": "generated-illustration"
+  },
+  "exohealer-hb-plus": {
+    "productId": "exohealer-hb-plus",
+    "productName": "Exohealer Hb plus",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/exohealer-hb-plus.svg",
+    "sourceType": "generated-illustration"
+  },
+  "gfc-cells": {
+    "productId": "gfc-cells",
+    "productName": "Gfc cells",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/gfc.webp",
+    "sourceType": "flyer-crop"
+  },
+  "leuco-exo-hair": {
+    "productId": "leuco-exo-hair",
+    "productName": "Leuco exo hair",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "resellerSite": "skini.pk",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "Leuco Exo Hair (Korean exosome)",
+    "resolvedSource": "/images/sheet/image4.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "skinderma": {
+    "productId": "skinderma",
+    "productName": "Skinderma",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/skinderma.svg",
+    "sourceType": "generated-illustration"
+  },
+  "reversha": {
+    "productId": "reversha",
+    "productName": "Reversha",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/reversha.svg",
+    "sourceType": "generated-illustration"
+  },
+  "hanheel": {
+    "productId": "hanheel",
+    "productName": "Hanheel",
+    "categorySlug": "exosome",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/hanheel.svg",
+    "sourceType": "generated-illustration"
+  },
+  "nctf": {
+    "productId": "nctf",
+    "productName": "NCTF",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "FILLMED NCTF 135 HA (5 vials)",
+    "resolvedSource": "/images/sheet/image5.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "lapuroon": {
+    "productId": "lapuroon",
+    "productName": "Lapuroon",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/lapuroon.webp",
+    "sourceType": "flyer-crop"
+  },
+  "dermaheal": {
+    "productId": "dermaheal",
+    "productName": "Dermaheal",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resellerSite": "consentz.com",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "Dermaheal SR skin rejuvenating solution 10 x 5 ml",
+    "resolvedSource": "/images/sheet/image6.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: Dermaheal SR skin rejuvenating solution 10 x 5 ml"
+  },
+  "otesaly": {
+    "productId": "otesaly",
+    "productName": "Otesaly",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/otesaly.svg",
+    "sourceType": "generated-illustration"
+  },
+  "renova-steam": {
+    "productId": "renova-steam",
+    "productName": "Renova steam",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/renova-steam.svg",
+    "sourceType": "generated-illustration"
+  },
+  "rejuran-healer-pn": {
+    "productId": "rejuran-healer-pn",
+    "productName": "Rejuran healer pn",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "REJURAN HEALER",
+    "resolvedSource": "/images/sheet/image7.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "jalupro-super-hydro": {
+    "productId": "jalupro-super-hydro",
+    "productName": "Jalupro Super Hydro",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "JALUPRO SUPER HYDRO",
+    "resolvedSource": "/images/sheet/image8.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "radiesse": {
+    "productId": "radiesse",
+    "productName": "Radiesse+",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "RADIESSE (+) 1.5 ml with lidocaine",
+    "resolvedSource": "/images/sheet/image9.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "profhilo": {
+    "productId": "profhilo",
+    "productName": "Profhilo",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resolvedSource": "/images/crops/profhilo_box.webp",
+    "sourceType": "flyer-crop"
+  },
+  "profhilo-structure": {
+    "productId": "profhilo-structure",
+    "productName": "Profhilo structure",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "PROFHILO STRUCTURA",
+    "resolvedSource": "/images/sheet/image11.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "lapuroon-super": {
+    "productId": "lapuroon-super",
+    "productName": "Lapuroon super",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/lapuroon-super.svg",
+    "sourceType": "generated-illustration"
+  },
+  "hyaron": {
+    "productId": "hyaron",
+    "productName": "Hyaron",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/hyaron.svg",
+    "sourceType": "generated-illustration"
+  },
+  "na-drn": {
+    "productId": "na-drn",
+    "productName": "NA:DRN",
+    "categorySlug": "skin-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "NA:DRN PDRN skin booster (NAD+)",
+    "resolvedSource": "/images/sheet/image12.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "juvederm": {
+    "productId": "juvederm",
+    "productName": "Juvederm",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "JUVEDERM ULTRA 3 with lidocaine",
+    "resolvedSource": "/images/sheet/image13.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: JUVEDERM ULTRA 3 with lidocaine"
+  },
+  "rejuran-hb": {
+    "productId": "rejuran-hb",
+    "productName": "Rejuran HB",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "REJURAN HB",
+    "resolvedSource": "/images/sheet/image14.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "rejuran-s": {
+    "productId": "rejuran-s",
+    "productName": "Rejuran S",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "resellerSite": "consentz.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "REJURAN S skin booster 1 x 1 ml",
+    "resolvedSource": "/images/sheet/image15.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "stylage": {
+    "productId": "stylage",
+    "productName": "Stylage",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "STYLAGE M BI-FLEX with lidocaine",
+    "resolvedSource": "/images/sheet/image16.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: STYLAGE M BI-FLEX with lidocaine"
+  },
+  "revolax": {
+    "productId": "revolax",
+    "productName": "Revolax",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "REVOLAX SUB-Q",
+    "resolvedSource": "/images/sheet/image17.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: REVOLAX SUB-Q"
+  },
+  "caratfill": {
+    "productId": "caratfill",
+    "productName": "Caratfill",
+    "categorySlug": "face-filler",
+    "groupSlug": "fillers",
+    "illustrationForm": "syringe",
+    "resolvedSource": "/images/illustrations/caratfill.svg",
+    "sourceType": "generated-illustration"
+  },
+  "sculptra": {
+    "productId": "sculptra",
+    "productName": "Sculptra",
+    "categorySlug": "plla-filler",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "SCULPTRA (2 vials)",
+    "resolvedSource": "/images/sheet/image18.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "power-col-tra": {
+    "productId": "power-col-tra",
+    "productName": "Power Col-Tra",
+    "categorySlug": "plla-filler",
+    "groupSlug": "boosters-and-biostimulators",
+    "illustrationForm": "syringe",
+    "resolvedSource": "/images/illustrations/power-col-tra.svg",
+    "sourceType": "generated-illustration"
+  },
+  "sedyfill": {
+    "productId": "sedyfill",
+    "productName": "Sedyfill",
+    "categorySlug": "body-filler",
+    "groupSlug": "fillers",
+    "illustrationForm": "syringe",
+    "resolvedSource": "/images/illustrations/sedyfill.svg",
+    "sourceType": "generated-illustration"
+  },
+  "maxyfill": {
+    "productId": "maxyfill",
+    "productName": "Maxyfill",
+    "categorySlug": "body-filler",
+    "groupSlug": "fillers",
+    "illustrationForm": "syringe",
+    "resolvedSource": "/images/illustrations/maxyfill.svg",
+    "sourceType": "generated-illustration"
+  },
+  "remedium": {
+    "productId": "remedium",
+    "productName": "Remedium",
+    "categorySlug": "body-filler",
+    "groupSlug": "fillers",
+    "illustrationForm": "syringe",
+    "resolvedSource": "/images/illustrations/remedium.svg",
+    "sourceType": "generated-illustration"
+  },
+  "jalupro-young-eyes": {
+    "productId": "jalupro-young-eyes",
+    "productName": "Jalupro young Eyes",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "JALUPRO YOUNG EYE",
+    "resolvedSource": "/images/sheet/image19.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "rejuran-i": {
+    "productId": "rejuran-i",
+    "productName": "Rejuran I",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "REJURAN I",
+    "resolvedSource": "/images/sheet/image20.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "lumi-eyes": {
+    "productId": "lumi-eyes",
+    "productName": "Lumi eyes",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resolvedSource": "/images/crops/lumi_eyes.webp",
+    "sourceType": "flyer-crop"
+  },
+  "lumi-eyes-pro": {
+    "productId": "lumi-eyes-pro",
+    "productName": "Lumi eyes pro",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/lumi-eyes-pro.svg",
+    "sourceType": "generated-illustration"
+  },
+  "eve-eyes-pro": {
+    "productId": "eve-eyes-pro",
+    "productName": "Eve eyes pro",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "EVE EYES PRO+ skin booster",
+    "resolvedSource": "/images/sheet/image21.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "nabota": {
+    "productId": "nabota",
+    "productName": "Nabota",
+    "categorySlug": "botox",
+    "groupSlug": "botulinum-toxins",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "NABOTA 100 units",
+    "resolvedSource": "/images/sheet/image22.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "botulax": {
+    "productId": "botulax",
+    "productName": "Botulax",
+    "categorySlug": "botox",
+    "groupSlug": "botulinum-toxins",
+    "resolvedSource": "/images/crops/botulax.webp",
+    "sourceType": "flyer-crop"
+  },
+  "evetox": {
+    "productId": "evetox",
+    "productName": "Evetox",
+    "categorySlug": "botox",
+    "groupSlug": "botulinum-toxins",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "EVETOX botulinum toxin type A, 100 units",
+    "resolvedSource": "/images/sheet/image24.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "liztox": {
+    "productId": "liztox",
+    "productName": "Liztox",
+    "categorySlug": "botox",
+    "groupSlug": "botulinum-toxins",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "LIZTOX 100 units",
+    "resolvedSource": "/images/sheet/image25.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "aqualax": {
+    "productId": "aqualax",
+    "productName": "Aqualax",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/aqualax.svg",
+    "sourceType": "generated-illustration"
+  },
+  "lipo-lab": {
+    "productId": "lipo-lab",
+    "productName": "Lipo lab",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/lipo-lab.svg",
+    "sourceType": "generated-illustration"
+  },
+  "kabelline": {
+    "productId": "kabelline",
+    "productName": "Kabelline",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/kabelline.svg",
+    "sourceType": "generated-illustration"
+  },
+  "lemon-bottle": {
+    "productId": "lemon-bottle",
+    "productName": "Lemon bottle",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "resellerSite": "medicalsparx.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "LEMONBOTTLE ampoule solution 10 ml",
+    "resolvedSource": "/images/sheet/image26.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "pine-bottle": {
+    "productId": "pine-bottle",
+    "productName": "Pine bottle",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/pine-bottle.svg",
+    "sourceType": "generated-illustration"
+  },
+  "l-carnitine": {
+    "productId": "l-carnitine",
+    "productName": "L carnitine",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/l-carnitine.svg",
+    "sourceType": "generated-illustration"
+  },
+  "skinny-drip": {
+    "productId": "skinny-drip",
+    "productName": "Skinny drip",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/skinny-drip.svg",
+    "sourceType": "generated-illustration"
+  },
+  "mounjaro": {
+    "productId": "mounjaro",
+    "productName": "Mounjaro",
+    "categorySlug": "weight-loss",
+    "groupSlug": "body-weight-and-numbing",
+    "resellerSite": "commons.wikimedia.org",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "Mounjaro KwikPen 5 mg",
+    "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "resolvedSource": "/images/sheet/image27.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "neocain": {
+    "productId": "neocain",
+    "productName": "Neocain",
+    "categorySlug": "numbing-cream",
+    "groupSlug": "body-weight-and-numbing",
+    "illustrationForm": "tube",
+    "resolvedSource": "/images/illustrations/neocain.svg",
+    "sourceType": "generated-illustration"
+  },
+  "nexcain": {
+    "productId": "nexcain",
+    "productName": "Nexcain",
+    "categorySlug": "numbing-cream",
+    "groupSlug": "body-weight-and-numbing",
+    "resolvedSource": "/images/crops/nexcain.webp",
+    "sourceType": "flyer-crop"
+  },
+  "eve-cain": {
+    "productId": "eve-cain",
+    "productName": "Eve Cain",
+    "categorySlug": "numbing-cream",
+    "groupSlug": "body-weight-and-numbing",
+    "resellerSite": "bsp-korea.com",
+    "resellerStatus": "Picture matches",
+    "resellerShows": "EVE CAIN lidocaine 10.56% cream, 30 g tube and box",
+    "resolvedSource": "/images/sheet/image28.webp",
+    "sourceType": "temporary-reseller-photo"
+  },
+  "60mm-screw": {
+    "productId": "60mm-screw",
+    "productName": "60mm Screw",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/60mm-screw.svg",
+    "sourceType": "generated-illustration"
+  },
+  "18g-100mm-cog": {
+    "productId": "18g-100mm-cog",
+    "productName": "18G 100mm Cog",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/18g-100mm-cog.svg",
+    "sourceType": "generated-illustration"
+  },
+  "30g-13mm-mono": {
+    "productId": "30g-13mm-mono",
+    "productName": "30G 13mm Mono",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/30g-13mm-mono.svg",
+    "sourceType": "generated-illustration"
+  },
+  "29g-25mm-mono": {
+    "productId": "29g-25mm-mono",
+    "productName": "29G 25mm Mono",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/29g-25mm-mono.svg",
+    "sourceType": "generated-illustration"
+  },
+  "29g-38mm-mono": {
+    "productId": "29g-38mm-mono",
+    "productName": "29G 38mm Mono",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/29g-38mm-mono.svg",
+    "sourceType": "generated-illustration"
+  },
+  "29g-50mm-mono": {
+    "productId": "29g-50mm-mono",
+    "productName": "29G 50mm Mono",
+    "categorySlug": "korean-threads",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "threads",
+    "resolvedSource": "/images/illustrations/29g-50mm-mono.svg",
+    "sourceType": "generated-illustration"
+  },
+  "centrifuge-digital": {
+    "productId": "centrifuge-digital",
+    "productName": "Centrifuge digital",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "centrifuge",
+    "resolvedSource": "/images/illustrations/centrifuge-digital.svg",
+    "sourceType": "generated-illustration"
+  },
+  "centrifuge-80-1": {
+    "productId": "centrifuge-80-1",
+    "productName": "Centrifuge 80-1",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "centrifuge",
+    "resolvedSource": "/images/illustrations/centrifuge-80-1.svg",
+    "sourceType": "generated-illustration"
+  },
+  "charment-pen": {
+    "productId": "charment-pen",
+    "productName": "Charment pen",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "pen",
+    "resolvedSource": "/images/illustrations/charment-pen.svg",
+    "sourceType": "generated-illustration"
+  },
+  "dr-pen": {
+    "productId": "dr-pen",
+    "productName": "Dr pen",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "resellerSite": "drpen.com.au",
+    "resellerStatus": "Picture shows one version",
+    "resellerShows": "Dr. Pen M8S microneedling pen with cartridges",
+    "resolvedSource": "/images/sheet/image29.webp",
+    "sourceType": "temporary-reseller-photo",
+    "caption": "Image shows: Dr. Pen M8S microneedling pen with cartridges"
+  },
+  "electrolysis-cautery": {
+    "productId": "electrolysis-cautery",
+    "productName": "Electrolysis cautery",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "wand",
+    "resolvedSource": "/images/illustrations/electrolysis-cautery.svg",
+    "sourceType": "generated-illustration"
+  },
+  "golden-pulse-face-vibrator": {
+    "productId": "golden-pulse-face-vibrator",
+    "productName": "Golden pulse Face vibrator",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "vial-box",
+    "resolvedSource": "/images/illustrations/golden-pulse-face-vibrator.svg",
+    "sourceType": "generated-illustration"
+  },
+  "monster-plasma-pen": {
+    "productId": "monster-plasma-pen",
+    "productName": "Monster Plasma pen",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "pen",
+    "resolvedSource": "/images/illustrations/monster-plasma-pen.svg",
+    "sourceType": "generated-illustration"
+  },
+  "plasma-pen-device": {
+    "productId": "plasma-pen-device",
+    "productName": "Plasma pen device",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "pen",
+    "resolvedSource": "/images/illustrations/plasma-pen-device.svg",
+    "sourceType": "generated-illustration"
+  },
+  "portable-high-frequency": {
+    "productId": "portable-high-frequency",
+    "productName": "Portable high frequency",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "wand",
+    "resolvedSource": "/images/illustrations/portable-high-frequency.svg",
+    "sourceType": "generated-illustration"
+  },
+  "led-mask-with-streamer": {
+    "productId": "led-mask-with-streamer",
+    "productName": "LED mask with streamer",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "illustrationForm": "mask",
+    "resolvedSource": "/images/illustrations/led-mask-with-streamer.svg",
+    "sourceType": "generated-illustration"
+  },
+  "miracle": {
+    "productId": "miracle",
+    "productName": "Miracle",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/miracle.webp",
+    "sourceType": "flyer-crop"
+  },
+  "mesoheal-pink-glow": {
+    "productId": "mesoheal-pink-glow",
+    "productName": "Mesoheal Pink Glow",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/mesoheal.webp",
+    "sourceType": "flyer-crop"
+  },
+  "lapuroon-aurora-vivid": {
+    "productId": "lapuroon-aurora-vivid",
+    "productName": "Lapuroon Aurora Vivid",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/lapuroon.webp",
+    "sourceType": "flyer-crop"
+  },
+  "laroscorbine-platinum": {
+    "productId": "laroscorbine-platinum",
+    "productName": "Laroscorbine Platinum",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/laroscorbine.webp",
+    "sourceType": "flyer-crop"
+  },
+  "bio-rae-complexion-12-dna-plus": {
+    "productId": "bio-rae-complexion-12-dna-plus",
+    "productName": "Bio-Rae Complexion 12 DNA+",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "resolvedSource": "/images/crops/biorae_kit.webp",
+    "sourceType": "flyer-crop"
+  },
+  "saint-blanc-xiii-quartet-whitening-set": {
+    "productId": "saint-blanc-xiii-quartet-whitening-set",
+    "productName": "Saint Blanc XIII Quartet Whitening Set",
+    "categorySlug": "whitening-injections",
+    "groupSlug": "whitening-and-brightening",
+    "resolvedSource": "/images/crops/saint_blanc.webp",
+    "sourceType": "flyer-crop"
+  },
+  "ami-eyes": {
+    "productId": "ami-eyes",
+    "productName": "AMI Eyes",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resolvedSource": "/images/crops/ami_eyes.webp",
+    "sourceType": "flyer-crop"
+  },
+  "ami-eyes-plus": {
+    "productId": "ami-eyes-plus",
+    "productName": "AMI Eyes Plus",
+    "categorySlug": "eye-booster",
+    "groupSlug": "boosters-and-biostimulators",
+    "resolvedSource": "/images/crops/ami_eyes_plus.webp",
+    "sourceType": "flyer-crop"
+  },
+  "taygete-carbon-gel": {
+    "productId": "taygete-carbon-gel",
+    "productName": "Taygete Carbon Gel",
+    "categorySlug": "devices-and-machines",
+    "groupSlug": "threads-and-devices",
+    "resolvedSource": "/images/crops/taygete.webp",
+    "sourceType": "flyer-crop"
+  },
+  "dermaheal-hl": {
+    "productId": "dermaheal-hl",
+    "productName": "Dermaheal HL",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/dermaheal_hl.webp",
+    "sourceType": "flyer-crop"
+  },
+  "dermaheal-sb": {
+    "productId": "dermaheal-sb",
+    "productName": "Dermaheal SB",
+    "categorySlug": "mesotherapy",
+    "groupSlug": "rejuvenation-and-meso",
+    "resolvedSource": "/images/crops/dermaheal_sb.webp",
+    "sourceType": "flyer-crop"
+  }
+}

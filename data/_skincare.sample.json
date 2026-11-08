@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sample-clinical-cleanser",
+    "name": "Sample Gentle Hydrating Face Wash",
+    "categorySlug": "face-wash",
+    "divisionSlug": "skincare",
+    "rx": false,
+    "hasDedicatedPage": false,
+    "image": null,
+    "keyPoints": []
+  },
+  {
+    "id": "sample-barrier-serum",
+    "name": "Sample Triple Peptide Recovery Serum",
+    "categorySlug": "serums",
+    "divisionSlug": "skincare",
+    "rx": false,
+    "hasDedicatedPage": false,
+    "image": null,
+    "keyPoints": []
+  }
+]

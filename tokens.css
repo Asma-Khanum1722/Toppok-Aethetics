@@ -1,0 +1,98 @@
+/* Hallmark tokens · Toppko Aesthetics · Custom Editorial System */
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("./fonts/LibreBodoni-Variable.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Variable.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Spatial rhythm (4px scale) */
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Type scale */
+  --font-display: "Libre Bodoni", Georgia, serif;
+  --font-body: "Manrope", system-ui, -apple-system, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.1875rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+
+  --text-display-hero: clamp(2.5rem, 5.5vw + 0.5rem, 4.25rem);
+  --text-display-hero-large: clamp(2.75rem, 6.5vw + 0.5rem, 5.25rem);
+  --text-section: clamp(2rem, 3.5vw + 0.5rem, 3rem);
+  --text-title: clamp(1.25rem, 1.2vw + 0.5rem, 1.5rem);
+  --text-lead: clamp(1rem, 0.8vw + 0.75rem, 1.1875rem);
+
+  /* Timing & curves */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-micro: 140ms;
+  --dur-short: 240ms;
+
+  /* Layout geometry */
+  --container: 1280px;
+  --gutter: clamp(16px, 3.5vw, 40px);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  --section-gap: var(--space-4xl);
+  --control-height: 48px;
+
+  /* Strict 60 / 30 / 10 Colour System */
+  /* 60% Base: Warm Cream */
+  --color-base: #FBF6EE;
+
+  /* 30% Support: Blush */
+  --color-support: #F6D8D0;
+  --color-support-light: #F9E4DE;
+  --color-support-hover: #F0C9C0;
+  --color-support-active: #E8B9AF;
+
+  /* 10% Accent: Cobalt */
+  --color-accent: #2F4BFF;
+  --color-accent-hover: #213DDC;
+  --color-accent-active: #152CAE;
+  --color-accent-tint: rgba(47, 75, 255, 0.08);
+  --color-accent-ink: #FCFCFE;
+
+  /* Neutral: Deep Ink */
+  --color-ink: #17142E;
+  --color-ink-muted: #534F6B;
+  --color-ink-tint-6: rgba(23, 20, 46, 0.06);
+  --color-ink-tint-12: rgba(23, 20, 46, 0.12);
+  --color-line: rgba(23, 20, 46, 0.12);
+  --color-line-strong: rgba(23, 20, 46, 0.22);
+  --color-white: #FCFCFE;
+
+  /* Functional Exception: Official WhatsApp Green */
+  --color-wa-float: #25D366;
+  --color-wa-float-hover: #20BA5A;
+  --color-wa-shadow: rgba(37, 211, 102, 0.38);
+  --color-shadow-drop: rgba(23, 20, 46, 0.14);
+
+  /* Focus Ring */
+  --color-focus-ring: #2F4BFF;
+}

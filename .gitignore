@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.agents/
+.hallmark/
+_final_state/
+.DS_Store
+Thumbs.db
+*.log

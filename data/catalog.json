@@ -1,0 +1,196 @@
+[
+  {
+    "id": "clinical",
+    "slug": "clinical",
+    "name": "Clinical & Professional",
+    "description": "Hospital and clinic grade dermal injectables, biostimulators, exosomes, toxins, threads, and procedural devices for licensed medical practitioners.",
+    "groups": [
+      {
+        "id": "whitening-and-brightening",
+        "slug": "whitening-and-brightening",
+        "name": "Whitening & Brightening",
+        "short": "Whitening",
+        "hue": "#FFD43B",
+        "hueToken": "sun",
+        "blurb": "Skin brightening, glutathione, and antioxidant complexion formulations.",
+        "categories": [
+          {
+            "id": "whitening-injections",
+            "slug": "whitening-injections",
+            "name": "Whitening Injections",
+            "description": "Intravenous and targeted antioxidant, glutathione, and vitamin complexes for clinical complexion rejuvenation."
+          }
+        ]
+      },
+      {
+        "id": "rejuvenation-and-meso",
+        "slug": "rejuvenation-and-meso",
+        "name": "Rejuvenation & Meso",
+        "short": "Rejuvenation",
+        "hue": "#FF5F7E",
+        "hueToken": "coral",
+        "blurb": "Mesotherapy micro-infusions, biomimetic peptides, and cellular exosome complexes.",
+        "categories": [
+          {
+            "id": "mesotherapy",
+            "slug": "mesotherapy",
+            "name": "Mesotherapy",
+            "description": "Targeted intradermal micro-infusion cocktails featuring polyrevitalizing complexes and biomimetic peptides."
+          },
+          {
+            "id": "exosome",
+            "slug": "exosome",
+            "name": "Exosome",
+            "description": "Cellular signaling vesicles and regenerative complexes for tissue repair and follicular stimulation."
+          }
+        ]
+      },
+      {
+        "id": "boosters-and-biostimulators",
+        "slug": "boosters-and-biostimulators",
+        "name": "Boosters & Biostimulators",
+        "short": "Biostimulators",
+        "hue": "#7A4DFF",
+        "hueToken": "violet",
+        "blurb": "Polynucleotide, PLLA, and high-concentration hyaluronic acid remodeling agents.",
+        "categories": [
+          {
+            "id": "skin-booster",
+            "slug": "skin-booster",
+            "name": "Skin Booster",
+            "description": "Stabilized polynucleotide and hyaluronic acid formulations for deep tissue bio-remodeling and dermal elasticity."
+          },
+          {
+            "id": "eye-booster",
+            "slug": "eye-booster",
+            "name": "Eye Booster",
+            "description": "Specialized peri-orbital polynucleotide and amino acid preparations for delicate tear trough revitalization."
+          },
+          {
+            "id": "plla-filler",
+            "slug": "plla-filler",
+            "name": "PLLA Filler",
+            "description": "Poly-L-lactic acid collagen stimulators designed for progressive volumetric restoration and deep structural support."
+          }
+        ]
+      },
+      {
+        "id": "fillers",
+        "slug": "fillers",
+        "name": "Fillers",
+        "short": "Dermal Fillers",
+        "hue": "#2F4BFF",
+        "hueToken": "blue",
+        "blurb": "Cross-linked hyaluronic acid facial and body volumizing injectables.",
+        "categories": [
+          {
+            "id": "face-filler",
+            "slug": "face-filler",
+            "name": "Face Filler",
+            "description": "Cross-linked hyaluronic acid dermal fillers engineered for structural volume, projection, and fine contouring."
+          },
+          {
+            "id": "body-filler",
+            "slug": "body-filler",
+            "name": "Body Filler",
+            "description": "High-viscosity stabilized hyaluronic acid body contouring formulations for volumetric enhancement."
+          }
+        ]
+      },
+      {
+        "id": "botulinum-toxins",
+        "slug": "botulinum-toxins",
+        "name": "Botulinum Toxins",
+        "short": "Toxins",
+        "hue": "#17142E",
+        "hueToken": "ink",
+        "blurb": "Purified botulinum toxin type A in standard 100 unit clinical vials.",
+        "categories": [
+          {
+            "id": "botox",
+            "slug": "botox",
+            "name": "Botox",
+            "description": "Purified botulinum toxin type A for aesthetic neuromuscular relaxation and clinical wrinkle moderation."
+          }
+        ]
+      },
+      {
+        "id": "body-weight-and-numbing",
+        "slug": "body-weight-and-numbing",
+        "name": "Body, Weight & Numbing",
+        "short": "Body & Numbing",
+        "hue": "#19D3A2",
+        "hueToken": "mint",
+        "blurb": "Lipolytic solutions, deoxycholic acid cocktails, and clinical topical anesthetics.",
+        "categories": [
+          {
+            "id": "weight-loss",
+            "slug": "weight-loss",
+            "name": "Weight Loss",
+            "description": "Lipolytic solutions, amino acid infusions, and clinical weight management formulations."
+          },
+          {
+            "id": "numbing-cream",
+            "slug": "numbing-cream",
+            "name": "Numbing Cream",
+            "description": "High-potency topical anesthetic preparations formulated for clinical comfort during needle and dermal procedures."
+          }
+        ]
+      },
+      {
+        "id": "threads-and-devices",
+        "slug": "threads-and-devices",
+        "name": "Threads & Devices",
+        "short": "Threads & Devices",
+        "hue": "#FF8F2E",
+        "hueToken": "orange",
+        "blurb": "PDO suspension threads and clinical procedural devices for aesthetic practices.",
+        "categories": [
+          {
+            "id": "korean-threads",
+            "slug": "korean-threads",
+            "name": "Korean Threads",
+            "description": "Polydioxanone (PDO) mono, screw, and cog suspension threads for facial vector lifting and collagen stimulation."
+          },
+          {
+            "id": "devices-and-machines",
+            "slug": "devices-and-machines",
+            "name": "Devices & Machines",
+            "description": "Clinic-grade centrifuges, microneedling pens, plasma devices, LED therapy masks, and procedural equipment."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skincare",
+    "slug": "skincare",
+    "name": "Skincare",
+    "description": "Clinic-formulated daily and post-procedure skincare regimens for professional dispensing.",
+    "groups": [
+      {
+        "id": "daily-and-clinical-skincare",
+        "slug": "daily-and-clinical-skincare",
+        "name": "Daily & Clinical Skincare",
+        "short": "Skincare",
+        "hue": "#3884FF",
+        "hueToken": "sky",
+        "blurb": "Dermatological cleansers and concentrated therapeutic serums.",
+        "categories": [
+          {
+            "id": "face-wash",
+            "slug": "face-wash",
+            "name": "Face Wash",
+            "description": "Dermatological cleansers for clinical pre-treatment preparation and patient maintenance."
+          },
+          {
+            "id": "serums",
+            "slug": "serums",
+            "name": "Serums",
+            "description": "Targeted active ingredient serums for epidermal recovery, hydration, and barrier support."
+          }
+        ]
+      }
+    ]
+  }
+]
