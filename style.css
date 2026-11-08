@@ -175,6 +175,20 @@ body {
   white-space: nowrap;
 }
 
+/* Light page adaptation (Products & Contact) */
+.page-light .nav-brand,
+.page-light .nav-brand-text {
+  color: #1B1813 !important;
+}
+
+.page-light .nav-wrapper.scrolled {
+  background: rgba(249, 246, 240, 0.94);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(27, 24, 19, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
 /* Veloura Floating Pill Container */
 .nav-pill-container {
   display: inline-flex;
@@ -246,20 +260,37 @@ body {
 /* ========================================================
    HERO SECTION: VELOURA EDITORIAL LUXURY
    Warm Mocha Ground (#3E322A), 2-Column Asymmetric Grid
+   Viewport-Fitted on Laptop/Desktop for Zero Above-the-Fold Clipping
    ======================================================== */
 .hero-zone {
   background-color: var(--bg-hero);
   color: var(--text-hero-main);
-  padding-top: 130px;
-  padding-bottom: 72px;
   position: relative;
   overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 901px) {
+  .hero-zone {
+    min-height: calc(100vh - 10px);
+    max-height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: clamp(72px, 8.5vh, 90px);
+    padding-bottom: clamp(16px, 2.8vh, 28px);
+    box-sizing: border-box;
+  }
+  .hero-zone > .container {
+    width: 100%;
+  }
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-  gap: 56px;
+  gap: clamp(24px, 3.8vw, 56px);
   align-items: center;
   position: relative;
   z-index: 1;
@@ -275,14 +306,14 @@ body {
 .hero-top-feature {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-bottom: 26px;
+  gap: 8px;
+  margin-bottom: clamp(12px, 1.8vh, 18px);
 }
 
 .hero-thumb-card {
-  width: 175px;
-  height: 115px;
-  border-radius: 20px;
+  width: clamp(130px, 12vw, 160px);
+  height: clamp(80px, 9vh, 105px);
+  border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -313,8 +344,8 @@ body {
 }
 
 .rating-avatar {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   border: 2px solid var(--bg-hero);
   background: var(--bg-hero-card);
@@ -332,7 +363,7 @@ body {
 }
 
 .rating-text {
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--text-hero-muted);
   letter-spacing: -0.01em;
@@ -341,12 +372,12 @@ body {
 /* Headline */
 .hero-h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.75rem, 5.5vw, 4.4rem);
+  font-size: clamp(2.4rem, 3.8vw, 3.6rem);
   line-height: 1.08;
   letter-spacing: -0.025em;
   font-weight: 700;
   color: var(--text-hero-main);
-  margin-bottom: 20px;
+  margin-bottom: clamp(14px, 1.8vh, 20px);
 }
 
 .hero-h1-italic {
@@ -356,10 +387,10 @@ body {
 }
 
 .hero-p {
-  font-size: 16px;
-  line-height: 1.55;
+  font-size: clamp(13.5px, 1.1vw, 15px);
+  line-height: 1.48;
   color: var(--text-hero-muted);
-  margin-bottom: 32px;
+  margin-bottom: clamp(16px, 2.2vh, 24px);
   max-width: 44ch;
 }
 
@@ -368,20 +399,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 24px;
+  gap: 12px;
+  margin-bottom: clamp(14px, 1.8vh, 20px);
 }
 
 .btn-hero-lime {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  height: 50px;
-  padding-inline: 26px;
+  height: 46px;
+  padding-inline: 24px;
   border-radius: 9999px;
   background: var(--accent-lime);
   color: var(--accent-lime-ink);
-  font-size: 14.5px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: none;
   box-shadow: 0 8px 24px var(--accent-lime-glow);
@@ -403,13 +434,13 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  height: 50px;
-  padding-inline: 22px;
+  height: 46px;
+  padding-inline: 20px;
   border-radius: 9999px;
   background: rgba(237, 232, 223, 0.12);
   border: 1px solid rgba(237, 232, 223, 0.24);
   color: var(--text-hero-main);
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s var(--ease-spring);
@@ -425,7 +456,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13px;
+  font-size: 12.5px;
   color: var(--text-hero-dim);
 }
 
@@ -441,17 +472,17 @@ body {
   color: var(--text-hero-main);
 }
 
-/* Right Column: Veloura Model Card */
+/* Right Column: Veloura Model Card & Media Box */
 .hero-media-column {
   display: flex;
   justify-content: flex-end;
 }
 
-.hero-model-card {
+.hero-model-card, .hero-media-box {
   width: 100%;
-  max-width: 480px;
-  height: 540px;
-  border-radius: 38px;
+  max-width: clamp(290px, 31vw, 410px);
+  height: clamp(340px, 53vh, 470px);
+  border-radius: clamp(24px, 2.5vw, 36px);
   overflow: hidden;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
   background: var(--bg-hero-card);
@@ -459,7 +490,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.hero-model-img {
+.hero-model-img, .hero-media-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -468,7 +499,8 @@ body {
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.hero-model-card:hover .hero-model-img {
+.hero-model-card:hover .hero-model-img,
+.hero-media-box:hover img {
   transform: scale(1.03);
 }
 
@@ -1025,20 +1057,28 @@ textarea.form-control {
   gap: 10px;
   width: 100%;
   height: 50px;
-  background: var(--wa-green);
-  color: #FFFFFF;
+  background: var(--accent-lime);
+  color: var(--accent-lime-ink);
   border: none;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 800;
+  border-radius: 9999px;
+  font-size: 14.5px;
+  font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 6px 18px var(--wa-green-glow);
+  box-shadow: 0 8px 24px var(--accent-lime-glow);
   transition: all 0.2s var(--ease-spring);
 }
 
 .btn-form-submit:hover {
-  background: var(--wa-green-hover);
+  background: var(--accent-lime-hover);
   transform: translateY(-2px);
+  box-shadow: 0 12px 28px var(--accent-lime-glow);
+}
+
+.btn-form-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 /* Inline Success State Banner */
@@ -1078,34 +1118,70 @@ textarea.form-control {
   margin-bottom: 12px;
 }
 
-.success-actions-row {
+.success-actions-row, .success-banner-actions {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-.btn-open-wa-again {
+.btn-open-wa-again, .btn-direct-wa-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   background: var(--wa-green);
   color: #FFFFFF;
   text-decoration: none;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 800;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.2s ease;
 }
 
-.btn-copy-wa-text {
-  padding: 8px 14px;
-  background: #FFFFFF;
-  border: 1px solid #BBF7D0;
-  border-radius: 8px;
-  font-size: 12px;
+.btn-open-wa-again:hover, .btn-direct-wa-link:hover {
+  background: var(--wa-green-hover);
+  transform: translateY(-1px);
+}
+
+.btn-direct-gmail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: #261E19;
+  color: #FAF7F2;
+  text-decoration: none;
+  border-radius: 9999px;
+  font-size: 13px;
   font-weight: 700;
-  color: #14532D;
+  transition: all 0.2s ease;
+}
+
+.btn-direct-gmail-link:hover {
+  background: var(--accent-lime);
+  color: var(--accent-lime-ink);
+  transform: translateY(-1px);
+}
+
+.btn-copy-wa-text, .btn-copy-req {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  border-radius: 9999px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #374151;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-copy-wa-text:hover, .btn-copy-req:hover {
+  background: #F3F4F6;
+  border-color: #9CA3AF;
 }
 
 /* ========================================================
@@ -1627,16 +1703,25 @@ textarea.form-control {
    MOBILE FLUID RESPONSIVENESS
    ======================================================== */
 @media (max-width: 900px) {
+  .hero-zone {
+    min-height: auto;
+    height: auto;
+    max-height: none;
+    padding-top: 88px;
+    padding-bottom: 44px;
+  }
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 36px;
   }
   .hero-media-column {
     justify-content: center;
+    width: 100%;
   }
-  .hero-model-card {
+  .hero-model-card, .hero-media-box {
     max-width: 100%;
-    height: 440px;
+    height: 360px;
+    margin: 0 auto;
   }
   .form-grid {
     grid-template-columns: 1fr;
@@ -1649,30 +1734,31 @@ textarea.form-control {
 
 @media (max-width: 600px) {
   .hero-zone {
-    padding-top: 105px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 36px;
   }
   .hero-h1 {
-    font-size: clamp(2.2rem, 8vw, 3rem);
+    font-size: clamp(1.85rem, 7.5vw, 2.35rem);
+    line-height: 1.15;
   }
   .hero-thumb-card {
-    width: 150px;
-    height: 100px;
+    width: 135px;
+    height: 85px;
   }
-  .hero-model-card {
-    height: 340px;
-    border-radius: 26px;
+  .hero-model-card, .hero-media-box {
+    height: 300px;
+    border-radius: 22px;
   }
   .nav-wrapper {
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
   }
   .nav-brand-text {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   .nav-brand-logo {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
   }
   .nav-pill-container {
     padding: 3px 4px 3px 12px;
@@ -1685,6 +1771,7 @@ textarea.form-control {
   .hero-action-cluster {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
   }
   .btn-hero-lime, .btn-hero-translucent {
     width: 100%;
@@ -1699,8 +1786,7 @@ textarea.form-control {
   .footer-row {
     flex-direction: column;
     align-items: flex-start;
-  }
-}
+    gap: 24px;
   }
   .footer-links-cluster {
     flex-direction: column;
