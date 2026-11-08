@@ -61,33 +61,42 @@
   --section-gap: var(--space-4xl);
   --control-height: 48px;
 
-  /* Strict 60 / 30 / 10 Colour System */
-  /* 60% Base: Warm Cream */
-  --color-base: #FBF6EE;
+  /* Veloura & Dribbble Luxury Editorial Palette */
+  /* Hero & Dark Accents: Warm Mocha Espresso */
+  --color-mocha-deep: #322720;
+  --color-mocha: #3E322A;
+  --color-mocha-surface: #4C3E34;
+  --color-mocha-card: #56473D;
+  
+  /* Canvas Ground for Content: Warm Porcelain Linen (Light mode, warm & inviting) */
+  --color-linen: #F7F4EE;
+  --color-linen-soft: #F0EAE1;
+  --color-white: #FFFFFF;
+  
+  /* Cream & Pill Elements */
+  --color-cream: #F5EFE8;
+  --color-cream-pill: #EDE8DF;
+  --color-cream-pill-border: rgba(62, 50, 42, 0.12);
+  
+  /* High-Impact CTA Accent: Electric Chartreuse Lime */
+  --color-lime: #D4E84A;
+  --color-lime-hover: #C2D63A;
+  --color-lime-ink: #1B180C;
+  --color-lime-glow: rgba(212, 232, 74, 0.32);
 
-  /* 30% Support: Blush */
-  --color-support: #F6D8D0;
-  --color-support-light: #F9E4DE;
-  --color-support-hover: #F0C9C0;
-  --color-support-active: #E8B9AF;
+  /* Deep Ink for Text on Light Background */
+  --color-ink: #261E19;
+  --color-ink-muted: #6B5C52;
+  --color-ink-dim: #9C8C80;
+  --color-line: rgba(62, 50, 42, 0.1);
+  --color-line-strong: rgba(62, 50, 42, 0.18);
 
-  /* 10% Accent: Cobalt */
-  --color-accent: #2F4BFF;
-  --color-accent-hover: #213DDC;
-  --color-accent-active: #152CAE;
-  --color-accent-tint: rgba(47, 75, 255, 0.08);
-  --color-accent-ink: #FCFCFE;
+  /* Brand Master Gold */
+  --color-gold: #B8962E;
+  --color-gold-light: #E3C766;
+  --color-gold-tint: rgba(184, 150, 46, 0.12);
 
-  /* Neutral: Deep Ink */
-  --color-ink: #17142E;
-  --color-ink-muted: #534F6B;
-  --color-ink-tint-6: rgba(23, 20, 46, 0.06);
-  --color-ink-tint-12: rgba(23, 20, 46, 0.12);
-  --color-line: rgba(23, 20, 46, 0.12);
-  --color-line-strong: rgba(23, 20, 46, 0.22);
-  --color-white: #FCFCFE;
-
-  /* Functional Exception: Official WhatsApp Green */
+  /* WhatsApp Official Brand */
   --color-wa-float: #25D366;
   --color-wa-float-hover: #20BA5A;
   --color-wa-shadow: rgba(37, 211, 102, 0.38);

@@ -155,32 +155,8 @@
       });
     }
 
-    // 6. Kinetic Marquee Scroll Velocity Physics
-    const tickerTrack = document.querySelector('.ticker-track');
-    if (tickerTrack) {
-      let lastScroll = window.scrollY;
-      let velocity = 0;
-      let animSpeed = 26; // base seconds
-
-      window.addEventListener('scroll', () => {
-        const currentScroll = window.scrollY;
-        const delta = Math.abs(currentScroll - lastScroll);
-        velocity = Math.min(delta * 0.08, 12);
-        lastScroll = currentScroll;
-      }, { passive: true });
-
-      function loopVelocity() {
-        if (velocity > 0.05) {
-          const dynamicSpeed = Math.max(8, animSpeed - velocity * 1.5);
-          tickerTrack.style.animationDuration = `${dynamicSpeed.toFixed(1)}s`;
-          velocity *= 0.92;
-        } else {
-          tickerTrack.style.animationDuration = `${animSpeed}s`;
-        }
-        requestAnimationFrame(loopVelocity);
-      }
-      requestAnimationFrame(loopVelocity);
-    }
+    // 6. Calm Marquee Ribbon: Steady continuous CSS animation with zero scroll-acceleration
+    // (Decoupled from scroll physics to ensure a smooth, serene experience)
 
     // 7. Floating WhatsApp Speed-Dial Toggle
     const trigger = document.getElementById('waTriggerBtn');
