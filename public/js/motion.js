@@ -37,8 +37,8 @@
           navWrapper.classList.remove('scrolled');
         }
 
-        // On mobile viewports (<= 900px), never hide the navbar so visitors always have access
-        if (window.innerWidth <= 900) {
+        // On mobile/tablet viewports (<= 992px), never hide the navbar so visitors always have access
+        if (window.innerWidth <= 992) {
           navWrapper.classList.remove('nav-hidden');
           lastScrollY = currentScrollY;
           return;
