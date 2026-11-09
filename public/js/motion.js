@@ -37,6 +37,13 @@
           navWrapper.classList.remove('scrolled');
         }
 
+        // On mobile viewports (<= 900px), never hide the navbar so visitors always have access
+        if (window.innerWidth <= 900) {
+          navWrapper.classList.remove('nav-hidden');
+          lastScrollY = currentScrollY;
+          return;
+        }
+
         // Don't submerge navbar if mobile menu is open
         const mobileDrawerOpen = document.getElementById('mobileNavDrawer')?.classList.contains('is-open');
         if (mobileDrawerOpen) {
