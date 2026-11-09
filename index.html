@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./style.css?v=3.6">
+  <link rel="stylesheet" href="./style.css?v=3.7">
 </head>
 <body>
 
@@ -43,7 +43,7 @@
         <span class="nav-brand-text">TOPPKO AESTHETICS</span>
       </a>
 
-      <!-- Floating Cream Pill Navigation -->
+      <!-- Desktop Floating Cream Pill Navigation -->
       <nav class="nav-pill-container" aria-label="Main Navigation">
         <ul class="nav-links-wrap">
           <li><a href="index.html" class="nav-tab-btn active">Home</a></li>
@@ -57,6 +57,58 @@
           <span class="plus-symbol">+</span>
         </a>
       </nav>
+
+      <!-- Mobile Quick Actions & Hamburger -->
+      <div class="nav-mobile-cluster">
+        <a href="https://wa.me/923277319079?text=Hello%20Toppko%20Aesthetics%2C%20I'd%20like%20to%20enquire%20about%20products." 
+           class="nav-mobile-cta" target="_blank" rel="noopener" aria-label="WhatsApp Enquire">
+          <span>Enquire</span>
+          <span class="plus-symbol">+</span>
+        </a>
+        <button class="nav-hamburger-toggle" id="navMobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay Menu -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+      <div class="mobile-drawer-body">
+        <nav class="mobile-drawer-nav">
+          <a href="index.html" class="mobile-nav-item active">
+            <span>Home</span>
+            <span class="mobile-nav-tag">Main</span>
+          </a>
+          <a href="products.html" class="mobile-nav-item">
+            <span>Products</span>
+            <span class="mobile-nav-tag">Catalogue</span>
+          </a>
+          <a href="skin-booster.html" class="mobile-nav-item">
+            <span>Skin Boosters</span>
+            <span class="mobile-nav-tag">Focus</span>
+          </a>
+          <a href="contact.html" class="mobile-nav-item">
+            <span>Contact Us</span>
+            <span class="mobile-nav-tag">Requisition</span>
+          </a>
+        </nav>
+
+        <div class="mobile-drawer-footer">
+          <a href="https://wa.me/923277319079?text=Hello%20Toppko%20Aesthetics%2C%20I'd%20like%20to%20place%20a%20clinic%20order." 
+             class="btn-mobile-drawer-wa" target="_blank" rel="noopener">
+            <svg style="width:18px;height:18px;fill:currentColor;" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.136 8.136 0 0 1-1.25-4.38c0-4.5 3.66-8.16 8.16-8.16 2.18 0 4.23.85 5.77 2.39a8.125 8.125 0 0 1 2.39 5.77c0 4.5-3.66 8.16-8.16 8.16zm4.47-6.1c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.39-1.74-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.59.13.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+            <span>Priority WhatsApp Order</span>
+          </a>
+          <div class="mobile-drawer-contact-chips">
+            <a href="tel:03277319079" class="drawer-contact-chip">Call: 0327-7319079</a>
+            <a href="tel:03360672712" class="drawer-contact-chip">Stock: 0336-0672712</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=toppkoaesthetic@gmail.com&su=Clinic%20Inquiry%20-%20Toppko%20Aesthetics" 
+               target="_blank" rel="noopener" class="drawer-contact-chip">toppkoaesthetic@gmail.com</a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -493,7 +545,7 @@
   </footer>
 
   <!-- MOTION ENGINE -->
-  <script src="./public/js/motion.js?v=3.6"></script>
+  <script src="./public/js/motion.js?v=3.7"></script>
 
   <!-- SEARCH FILTER & CLINIC REQUISITION ENGINE -->
   <script>

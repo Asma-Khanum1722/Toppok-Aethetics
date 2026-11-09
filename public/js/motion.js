@@ -37,6 +37,13 @@
           navWrapper.classList.remove('scrolled');
         }
 
+        // Don't submerge navbar if mobile menu is open
+        const mobileDrawerOpen = document.getElementById('mobileNavDrawer')?.classList.contains('is-open');
+        if (mobileDrawerOpen) {
+          navWrapper.classList.remove('nav-hidden');
+          return;
+        }
+
         // Submerge on scroll down, reveal on scroll up
         if (currentScrollY > lastScrollY && currentScrollY > 80) {
           navWrapper.classList.add('nav-hidden');
@@ -179,6 +186,56 @@
       document.addEventListener('click', (e) => {
         if (!popup.contains(e.target) && e.target !== trigger) {
           popup.classList.remove('show');
+        }
+      });
+    }
+    // 8. Mobile Navigation Drawer Toggle
+    const mobileToggle = document.getElementById('navMobileToggle');
+    const mobileDrawer = document.getElementById('mobileNavDrawer');
+
+    if (mobileToggle && mobileDrawer) {
+      function setMobileDrawer(open) {
+        if (open) {
+          mobileDrawer.classList.add('is-open');
+          mobileToggle.classList.add('is-active');
+          mobileToggle.setAttribute('aria-expanded', 'true');
+          mobileDrawer.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('mobile-nav-locked');
+        } else {
+          mobileDrawer.classList.remove('is-open');
+          mobileToggle.classList.remove('is-active');
+          mobileToggle.setAttribute('aria-expanded', 'false');
+          mobileDrawer.setAttribute('aria-hidden', 'true');
+          document.body.classList.remove('mobile-nav-locked');
+        }
+      }
+
+      mobileToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = mobileDrawer.classList.contains('is-open');
+        setMobileDrawer(!isOpen);
+      });
+
+      // Close on tapping any nav link inside drawer
+      mobileDrawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          setMobileDrawer(false);
+        });
+      });
+
+      // Close on tapping outside
+      document.addEventListener('click', (e) => {
+        if (mobileDrawer.classList.contains('is-open') && 
+            !mobileDrawer.contains(e.target) && 
+            !mobileToggle.contains(e.target)) {
+          setMobileDrawer(false);
+        }
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileDrawer.classList.contains('is-open')) {
+          setMobileDrawer(false);
         }
       });
     }
